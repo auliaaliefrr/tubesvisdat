@@ -21,7 +21,7 @@ from bokeh.models import Slider, Select
 # In[2]:
 
 
-data = pd.read_csv(r"top10s.csv")
+data = pd.read_csv(r"./top10s.csv")
 data.set_index('year', inplace=True)
 data.head()
 
